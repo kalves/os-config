@@ -1,0 +1,56 @@
+# Thème inspiré du terminal par défaut d'Ubuntu
+
+[colors]
+# Couleurs principales
+[colors.primary]
+background = "#300a24"  # Fond violet sombre comme le terminal Ubuntu
+foreground = "#eeeeec"  # Texte blanc légèrement gris
+
+# Couleurs normales
+[colors.normal]
+black   = "#2e3436"  # Noir
+red     = "#cc0000"  # Rouge Ubuntu
+green   = "#4e9a06"  # Vert
+yellow  = "#c4a000"  # Jaune
+blue    = "#3465a4"  # Bleu
+magenta = "#75507b"  # Magenta (proche du violet)
+cyan    = "#06989a"  # Cyan
+white   = "#d3d7cf"  # Blanc clair
+
+# Couleurs brillantes
+[colors.bright]
+black   = "#555753"
+red     = "#ef2929"
+green   = "#8ae234"
+yellow  = "#fce94f"
+blue    = "#729fcf"
+magenta = "#ad7fa8"
+cyan    = "#34e2e2"
+white   = "#eeeeec"
+
+# Curseur et sélection
+[colors.cursor]
+text = "#300a24"  # Couleur du texte dans le curseur
+cursor = "#ffffff"  # Couleur du curseur (blanc)
+
+[colors.selection]
+text = "#300a24"  # Texte sélectionné
+background = "#c4a000"  # Couleur d'arrière-plan de la sélection (jaune léger)
+
+# Paramètres de la fenêtre
+[window]
+opacity = 0.8  # Pas de transparence (comme le terminal Ubuntu)
+decorations = "Full"  # Pas de décorations de fenêtre visibles
+padding = {x=5, y=2}
+
+# Configuration des polices
+[font]
+normal = { family = "Ubuntu Mono", style = "Regular" }  # Police par défaut d'Ubuntu
+bold = { family = "Ubuntu Mono", style = "Bold" }
+italic = { family = "Ubuntu Mono", style = "Italic" }
+size = 10.0  # Taille du texte par défaut d'Ubuntu
+
+# Configuration du curseur
+[cursor]
+style = "Block"  # Le terminal d'Ubuntu utilise un curseur en bloc
+
